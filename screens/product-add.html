@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Some Database | Add Product</title>
+		<link rel="icon" href="../assets/img/doguitoadm.svg" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../assets/css/base/base.css" />
+		<link rel="stylesheet" href="../assets/css/user-add.css" />
+		<link rel="stylesheet" href="../assets/css/product-add.css" />
+		<link rel="stylesheet" href="../assets/css/components/header.css" />
+		<link rel="stylesheet" href="../assets/css/components/card.css" />
+		<link rel="stylesheet" href="../assets/css/components/inputs.css" />
+		<link rel="stylesheet" href="../assets/css/components/button.css" />
+	</head>
+
+	<body>
+		<header class="header container">
+			<h1>Some Database</h1>
+			<nav>
+				<ul class="header__list-nav">
+					<li class="header__link"><a href="#">Dashboard</a></li>
+					<li class="header__link"><a href="#">Products</a></li>
+					<li class="header__link">
+						<a href="user-list.html">Users</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container flex flex--center flex--column">
+			<section class="card cadastro">
+				<h1 class="card__title">Add a product</h1>
+				<form action="#" class="flex flex--column">
+					<div class="input-container">
+						<input
+							name="name"
+							id="name"
+							class="input"
+							type="text"
+							placeholder="Name"
+						/>
+						<label class="input-label" for="name">Name</label>
+						<span class="input-menssage-error">Error</span>
+					</div>
+					<div class="input-container register__price-container">
+						<input
+							name="price"
+							id="price"
+							class="input"
+							type="text"
+							placeholder="Price"
+						/>
+						<label class="input-label" for="price">Price</label>
+						<span class="input-menssage-error">Error</span>
+					</div>
+					<div
+						class="textarea-container textarea-container--invalido register_description-container"
+					>
+						<textarea
+							class="textarea register_description"
+							name="description"
+							id="description"
+							placeholder="Description"
+						></textarea>
+						<label class="textarea-label" for="description">Description</label>
+						<span class="textarea-menssage-error">Error</span>
+					</div>
+					<a href="./product-add-success.html" class="button">Add product</a>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Some Database | Edit User</title>
+		<link rel="icon" href="../assets/img/doguitoadm.svg" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../assets/css/base/base.css" />
+		<link rel="stylesheet" href="../assets/css/user-edit.css" />
+		<link rel="stylesheet" href="../assets/css/components/header.css" />
+		<link rel="stylesheet" href="../assets/css/components/card.css" />
+		<link rel="stylesheet" href="../assets/css/components/inputs.css" />
+		<link rel="stylesheet" href="../assets/css/components/button.css" />
+	</head>
+
+	<body>
+		<header class="header container">
+			<h1>Some Database</h1>
+			<nav>
+				<ul class="header__list-nav">
+					<li class="header__link"><a href="#">Dashboard</a></li>
+					<li class="header__link"><a href="#">Products</a></li>
+					<li class="header__link">
+						<a href="user-list.html">Users</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container flex flex--center flex--column">
+			<section class="card cadastro">
+				<h1 class="card__title">Edit</h1>
+				<form action="#" class="flex flex--column" data-form>
+					<div class="input-container">
+						<input
+							name="name"
+							id="name"
+							class="input"
+							type="text"
+							placeholder="Name"
+							required
+							data-name
+						/>
+						<label class="input-label" for="name">Name</label>
+						<span class="input-menssage-error">This field is required</span>
+					</div>
+					<div class="input-container">
+						<input
+							name="email"
+							id="email"
+							class="input"
+							type="text"
+							placeholder="email"
+							required
+							data-email
+						/>
+						<label class="input-label" for="email">Email</label>
+						<span class="input-menssage-error">This field is required</span>
+					</div>
+					<button type="submit" class="button">Edit User</button>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

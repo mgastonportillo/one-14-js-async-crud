@@ -1,0 +1,23 @@
+{
+	"name": "one-14-js-async-crud",
+	"version": "1.0.0",
+	"description": "one-14-js-async-crud project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mgastonportillo/project.git"
+	},
+	"keywords": [
+		"Alura",
+		"course"
+	],
+	"author": "Maximiliano Gastón Portillo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mgastonportillo/project/issues"
+	},
+	"homepage": "https://github.com/mgastonportillo/project#readme"
+}
