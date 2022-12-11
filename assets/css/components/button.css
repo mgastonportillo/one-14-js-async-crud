@@ -1,31 +1,33 @@
 .button {
-  display: block;
-  background-color: var(--primary-color);
-  border-radius: 7px;
-  width: 100%;
-  margin-top: 1rem;
-  max-width: 20rem;
-  padding: 1.125rem;
-  box-sizing: border-box;
-  color: var(--contrast-ligth-color);
-  font-size: var(--font-size-button);
-  align-self: center;
-  text-align: center;
+	display: block;
+	background-color: var(--primary-color);
+	border-radius: 7px;
+	width: 100%;
+	margin-top: 1rem;
+	max-width: 20rem;
+	padding: 1.125rem;
+	box-sizing: border-box;
+	color: var(--contrast-ligth-color);
+	font-size: var(--font-size-button);
+	align-self: center;
+	text-align: center;
+	cursor: pointer;
 }
 
 .simple-button {
-  border: none;
-  background-color: unset;
+	border: none;
+	background-color: unset;
+	cursor: pointer;
 }
 
 .simple-button--add {
-  color: var(--primary-color);
+	color: var(--primary-color);
 }
 
 .simple-button--delete {
-  color: var(--info-color);
+	color: var(--info-color);
 }
 
 .simple-button--edit {
-  color: var(--sucess-color);
+	color: var(--sucess-color);
 }
