@@ -12,7 +12,7 @@ const createNewLine = (userName, userEmail, id) => {
 			<ul class="table__button-control">
 				<li>
 					<a
-						href="../screens/user-edit.html"
+						href="../screens/user-edit.html?id=${id}"
 						class="simple-button simple-button--edit"
 					>
 						Edit

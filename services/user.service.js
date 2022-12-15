@@ -17,4 +17,20 @@ const removeUser = (id) => {
 	});
 };
 
-export default { userList, newUser, removeUser };
+const editUser = (name, email, id) => {
+	return fetch(`http://localhost:3000/profile/${id}`, {
+		method: 'PUT',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({ name, email }),
+	}).then((response) => response);
+};
+
+const userInfo = (id) => {
+	return fetch(`http://localhost:3000/profile/${id}`).then((response) =>
+		response.json()
+	);
+};
+
+export default { userList, userInfo, newUser, editUser, removeUser };
